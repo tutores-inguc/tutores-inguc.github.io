@@ -44,7 +44,7 @@ head = """
 """
 
 sidebar = """
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:var(--primary);background-image:var(--primary)" >
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar" style="background-color:var(--primary);background-image:var(--primary)" >
 
 """
 
