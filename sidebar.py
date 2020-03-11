@@ -1,4 +1,5 @@
-archivos = {"tables.html": "Tablas", 
+archivos = {"tutorial-videos/index.html": "Edición de Video",
+            "tables.html": "Tablas", 
             "buttons.html": "Botones",
             "cards.html": "Cartas",
             "utilities-color.html": "Color", 
@@ -9,7 +10,8 @@ archivos = {"tables.html": "Tablas",
             "blank.html": "En blanco",
             "charts.html": "Cartas"}
 
-mapa = {"Components": ["buttons.html", 
+mapa = {"Difusión": {"tutorial-videos/index.html"},
+    "Components": ["buttons.html", 
                 "cards.html"], 
     "Utilities": ["utilities-color.html", 
                 "utilities-border.html", 
@@ -74,6 +76,20 @@ barra = """
       <div class="sidebar-heading">
         Interface
       </div>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Difusión</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Tutoriales:</h6>
+            <a class="collapse-item" href="tutotial-videos/index.html">Edición de Video</a>
+          </div>
+        </div>
+      </li>
+
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
